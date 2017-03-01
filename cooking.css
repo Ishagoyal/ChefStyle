@@ -1,0 +1,27 @@
+body{
+	overflow: scroll;
+	
+}
+.container{
+
+}
+
+.navbar{
+	margin: 0px;
+}
+
+.home,.bg{
+	background-image: url(http://www.mazola.com/img/page-background.png);
+	background-size: cover;
+	min-height: 100%;
+	background-attachment: fixed;
+	
+}
+
+.jumbotron{
+	height: 100%;
+	
+}
+
+
+
