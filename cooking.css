@@ -1,5 +1,7 @@
 body{
 	overflow: scroll;
+	overflow-x: hidden;
+
 	
 }
 .container{
@@ -8,6 +10,10 @@ body{
 
 .navbar{
 	margin: 0px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	transition: top 0.2s ease-in-out;
 }
 
 .home,.bg{
@@ -21,6 +27,10 @@ body{
 .jumbotron{
 	height: 100%;
 	
+}
+
+.nav-up{
+	top: -52px;
 }
 
 
